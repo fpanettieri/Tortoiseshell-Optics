@@ -1,0 +1,52 @@
+html {
+  font-size: 18px;
+
+}
+
+.company {
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  justify-content: space-between;
+
+}
+
+.container {
+  max-width: 960px;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 1rem 2rem;
+
+}
+
+ul {
+  margin-right: 2rem;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .mobile {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+}
