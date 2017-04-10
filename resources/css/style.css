@@ -49,4 +49,7 @@ ul {
   .menu {
     display: none;
   }
+  .name {
+    display: none;
+  }
 }
