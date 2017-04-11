@@ -9,23 +9,29 @@ html {
   font-size: 1rem;
   color: white;
   justify-content: space-between;
-
+  margin-top: 1rem;
 }
 
 .container {
   max-width: 960px;
 }
 
-.company .container {
+.company, .container, .brand {
   display: flex;
   align-items: center;
   padding: 1rem 2rem;
 }
 
+
+
 .company img {
   height: 1.5rem;
   padding-left: 2rem;
   padding-right: 1rem;
+}
+
+.company .container .brand {
+  flex-grow: 1;
 }
 
 ul li {
